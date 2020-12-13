@@ -12,9 +12,9 @@
  * @link            http://github.com/mrkrstphr/php-gedcom
  */
 
-namespace PhpGedcomTest;
+namespace GedcomTest;
 
-use PhpGedcom\Parser;
+use Gedcom\Parser;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -36,8 +36,6 @@ class ParserTest extends TestCase
     {
         $this->parser = new Parser();
         $this->gedcom = $this->parser->parse(TEST_DIR.'/stresstestfiles/base.ged');
-
-        print_r($this->gedcom);die;
     }
 
     public function testNoErrors()

@@ -1,5 +1,5 @@
 {
-    "name": "modularsoftware/php-gedcom",
+    "name": "taciclei/gedcom",
     "description": "A GEDCOM file parser (read + write) for PHP 5.3+",
     "type": "library",
     "keywords": ["gedcom","parser"],
@@ -18,7 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpGedcom\\": "library/PhpGedcom/"
+            "Gedcom\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GedcomTest\\": "tests/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpGedcomTest;
+namespace GedcomTest;
 
 use PhpGedcom\Parser;
 use PHPUnit\Framework\TestCase;
