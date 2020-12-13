@@ -6,7 +6,10 @@
     "homepage": "http://github.com/modularsoftware/php-gedcom",
     "license": "MIT",
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.4",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12.58",
@@ -14,8 +17,8 @@
         "phpunit/phpunit": "^9.4"
     },
     "autoload": {
-        "psr-0": {
-            "PhpGedcom\\": "library/"
+        "psr-4": {
+            "PhpGedcom\\": "library/PhpGedcom/"
         }
     }
 }
