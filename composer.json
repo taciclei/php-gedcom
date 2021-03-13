@@ -1,5 +1,5 @@
 {
-    "name": "taciclei/gedcom",
+    "name": "phpjit/gedcom",
     "description": "A GEDCOM file parser (read + write) for PHP 5.3+",
     "type": "library",
     "keywords": ["gedcom","parser"],
